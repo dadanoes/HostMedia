@@ -2,6 +2,9 @@
 
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
 }
 
 * {
@@ -150,6 +153,30 @@ img {
 .btn:hover {
   transform: scale(0.98);
 }
+/* Background & Collored Botton */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
 
 .btn-outline {
   background-color: transparent;
@@ -188,3 +215,27 @@ img {
 }
 
 /* CLOUD */
+
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
+/* LANGUAGES */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}

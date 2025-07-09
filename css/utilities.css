@@ -15,6 +15,32 @@
   color: #333;
 }
 
+/* TEXT SIZES */
+
+.lead {
+  font-size: 20px;
+}
+
+.smm {
+  font-size: 1rem;
+}
+
+.ms {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .flex {
   display: flex;
   justify-content: center;
